@@ -99,15 +99,25 @@
       </ul>
     </div>
 
-    <div class="contact">
-      <h2>Ready for Cleaner Coils?</h2>
-      <p>
-        📞 Call or Text: <strong><a href="tel:6156861260">tbd</a></strong><br>
-        📧 Email: tbd
-        📍 Serving Nashville & Surrounding Counties
-      </p>
-      <p><strong>Ask about a free 2-unit demo or same-day visual inspection.</strong></p>
-    </div>
+<div class="contact">
+  <h2>Ready for Cleaner Coils?</h2>
+  <p>
+    📞 Call or Text: 
+    <strong><a href="tel:+16156861260">(615) 686-1260</a></strong><br>
+    📧 Email: 
+    <span id="email-link"></span><br>
+    📍 Serving Nashville & Surrounding Counties
+  </p>
+  <script>
+    const user = "info";
+    const domain = "cleancoilsolutions.com";
+    const email = user + "@" + domain;
+    document.getElementById("email-link").innerHTML = 
+      '<a href="mailto:' + email + '">' + email + '</a>';
+  </script>
+  <p><strong>Ask about a free 2-unit demo or same-day visual inspection.</strong></p>
+</div>
+
 
   </div>
 
